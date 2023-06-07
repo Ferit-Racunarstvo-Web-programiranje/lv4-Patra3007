@@ -1,0 +1,66 @@
+@media screen and (max-width: 1300px) {
+  .footer,
+  .landing-page,
+  .main-page,
+  .main-page-container {
+    width: 100%;
+    height: auto;
+    padding: 5% 2.5%;
+    text-align: center;
+  }
+
+  .navbar {
+    width: auto;
+    height: auto;
+    padding: 2.5%;
+    background-color: #222;
+    visibility: hidden;
+  }
+
+  li {
+    padding: 5% 5%;
+  }
+
+  #nav-link {
+    margin-top: 40%;
+  }
+
+  li {
+    display: flex;
+    color: #fff;
+  }
+
+  ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+  }
+
+  li a {
+    width: 100%;
+    color: #fff;
+    font-size: 1.25rem;
+  }
+
+  li a:hover {
+    width: 100%;
+  }
+
+  #x {
+    visibility: visible;
+    cursor: pointer;
+    font-size: 2em;
+    text-shadow: 0.1em 0.1em #333;
+    position: absolute;
+    float: left;
+    left: 5%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+  .proizvodi {
+    grid-template-columns: repeat(1, 80%);
+  }
+}
